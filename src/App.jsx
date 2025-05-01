@@ -3,6 +3,7 @@ import './App.css'
 import { Navabar } from './Components/Navbar'
 import { RecoilRoot } from 'recoil'
 import { Introduction } from './Components/Introduction'
+import { Services } from './Components/Services'
 
 function App() {
 
@@ -10,6 +11,7 @@ function App() {
     <RecoilRoot>
       <Navabar />
       <Introduction />
+      <Services />
     </RecoilRoot>
   )
 }

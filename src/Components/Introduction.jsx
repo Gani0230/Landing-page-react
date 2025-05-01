@@ -1,6 +1,6 @@
 
 export const Introduction = ()=>{
-    return <div className="mx-auto text-center dark:bg-black">
+    return <div className="mx-auto text-center dark:bg-black bg-gray-50">
         <h1 className="text-8xl font-extrabold pt-25 pb-10 dark:text-white">Building products <br />
         That Inspire </h1>
         <p className="text-2xl text-gray-500">We build human-first SaaS products <br />
@@ -18,7 +18,7 @@ export const Introduction = ()=>{
         </div>
         <p className="text-l text-gray-500">Trusted by Founders and Entrepreneurs from all over the world</p>
         <img className="py-15 h-150 object-cover mx-auto"src="src\assets\images\image.png" alt="intro image" />
-        <h1 className="my-2 text-4xl font-bold">Trusted by Industry Leaders</h1>
+        <h1 className="my-2 text-4xl font-bold dark:text-white">Trusted by Industry Leaders</h1>
         <p className="text-[20px] text-gray-500">We've helped companies of all sizes achieve their software goals</p>
 
         <div className="grid grid-cols-6 mx-auto  py-20 w-5xl">
